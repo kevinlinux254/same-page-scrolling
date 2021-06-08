@@ -1,0 +1,28 @@
+.toggle 
+{
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	width: 30px;
+	height: 30px;
+	background: #333;
+	background-size: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+.toggle .active
+{
+	background: #6495ed url(close.png);
+	background-size: 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+section 
+{
+	padding: 100px;
+	min-height: 100vh;
+}
